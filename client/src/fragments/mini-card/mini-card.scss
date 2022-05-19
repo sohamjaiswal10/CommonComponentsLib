@@ -1,0 +1,11 @@
+.miniCard {
+  width: 100%;
+  display: flex;
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+}

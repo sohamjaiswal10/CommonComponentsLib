@@ -1,0 +1,26 @@
+.cardContainer {
+  $avatar-y-pos: 7.5rem;
+  $avatar-x-pos: 2rem;
+  .bigBox {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    .header {
+      position: relative;
+      height: 30rem;
+      display: flex;
+      align-items: flex-end;
+      .banner {
+        position: absolute;
+        z-index: -1;
+      }
+      .avatar {
+        z-index: 0;
+        transform: translateX($avatar-x-pos) translateY($avatar-y-pos);
+      }
+    }
+    .body {
+      padding: calc($avatar-y-pos + 2rem) $avatar-x-pos 2rem $avatar-x-pos;
+    }
+  }
+}

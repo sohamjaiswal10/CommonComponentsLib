@@ -1,0 +1,15 @@
+@import "../../../../App.scss";
+.textInput {
+  $padding: 1rem;
+  .box {
+    padding: $padding;
+    input {
+      border: none;
+      width: 100%;
+      font-family: Poppins;
+      font-weight: 500;
+      font-size: 1.5rem;
+      color: #6f6f6f;
+    }
+  }
+}

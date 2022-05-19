@@ -1,0 +1,9 @@
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .userDetails {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,10 @@
+.grid {
+  display: flex;
+  gap: 1rem;
+  max-width: 100%;
+  height: fit-content;
+  flex-wrap: wrap;
+  .miniCard {
+    flex: 1 0 21%;
+  }
+}

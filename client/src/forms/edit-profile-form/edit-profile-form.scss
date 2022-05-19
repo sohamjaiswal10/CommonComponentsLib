@@ -1,0 +1,45 @@
+.editProfileForm {
+  $avatar-y-pos: 7.5rem;
+  $avatar-x-pos: 2rem;
+  .bigBox {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    .form {
+      .header {
+        position: relative;
+        height: 30rem;
+        display: flex;
+        align-items: flex-end;
+        .banner {
+          position: absolute;
+          z-index: 0;
+          width: 100%;
+          .edit {
+            transform: translateX(-112.5%) translateY(-50%);
+            cursor: pointer;
+            z-index: 10;
+          }
+        }
+        .avatar {
+          z-index: 1;
+          transform: translateX($avatar-x-pos) translateY($avatar-y-pos);
+          .edit {
+            transform: translateX(-100%) translateY(-85%);
+          }
+        }
+      }
+      .body {
+        padding: calc($avatar-y-pos + 2rem) $avatar-x-pos 2rem $avatar-x-pos;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .userDetails {
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+        }
+      }
+    }
+  }
+}

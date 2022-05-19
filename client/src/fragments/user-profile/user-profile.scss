@@ -1,0 +1,12 @@
+.userProfile {
+  display: flex;
+  gap: 1rem;
+  .box {
+    padding: 2rem;
+  }
+  .userDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
